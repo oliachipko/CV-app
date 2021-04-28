@@ -1,0 +1,35 @@
+:host {
+    width: 100%;
+}
+a {
+    display: block;
+    color:#cc4b2c;
+    text-decoration: none;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #cc4b2c; 
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+.about-me {
+    font-size: 30px;
+}
+
+.list-wrapper {
+    color:  #cc4b2c;
+    margin-bottom: 20px;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+

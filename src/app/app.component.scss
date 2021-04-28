@@ -1,0 +1,41 @@
+section {
+    display: flex;
+}
+:host::ng-deep body {
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.navigation {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #cc4b2c;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    .active-link {
+        opacity: 0.5;
+    }
+     a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 40px;
+        position: relative;
+    }  
+     .label-icon {
+        color: #fff;
+        text-decoration: none;
+        font-size: 50px;
+        margin-right: 50px;
+     }
+}
+
+.menu-icon {
+   font-size: 30px;
+   top: 20px;
+   left: -40px;
+   position: absolute;
+}
+
